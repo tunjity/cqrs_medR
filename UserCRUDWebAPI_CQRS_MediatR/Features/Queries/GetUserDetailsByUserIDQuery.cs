@@ -19,7 +19,6 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Queries
 
         public async Task<UserDto> Handle(GetUserDetailsByUserIDQuery request, CancellationToken cancellationToken)
         {
-
             ResponseDto response;
             var _userDetails = await demoDBContext.Users.FindAsync(request.userID);
             if (_userDetails is not null)
