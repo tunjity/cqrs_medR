@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/cqrs_medR/FileContentIndex/7668b836-87ca-44ce-a224-f1e0df3b880b.vsidx
+/UserCRUDWebAPI_CQRS_MediatR/.vs/UserCRUDWebAPI_CQRS_MediatR/FileContentIndex/31860467-d202-4207-9ce1-c202c1cd5f02.vsidx
