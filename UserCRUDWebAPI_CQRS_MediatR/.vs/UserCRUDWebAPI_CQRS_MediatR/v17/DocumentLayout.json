@@ -1,38 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\",
+  "WorkspaceRootPath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\new folder\\usercrudwebapi_cqrs_mediatr\\controllers\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\controllers\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:controllers\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\new folder\\usercrudwebapi_cqrs_mediatr\\features\\queries\\getuserdetailsbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\queries\\getuserdetailsbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\queries\\getwithparameterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\queries\\getwithparameterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\new folder\\usercrudwebapi_cqrs_mediatr\\features\\commands\\saveuserdetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\commands\\updateuserdetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\commands\\updateuserdetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\commands\\deleteuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\commands\\deleteuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\commands\\saveuserdetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\commands\\saveuserdetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\new folder\\usercrudwebapi_cqrs_mediatr\\validations\\saveuserdetailsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\validations\\saveuserdetailsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:validations\\saveuserdetailsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190722_ghsh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240405190722_ghsh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190624_ghsh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190624_ghsh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240405190624_ghsh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\new folder\\usercrudwebapi_cqrs_mediatr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\new folder\\usercrudwebapi_cqrs_mediatr\\features\\commands\\deleteuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\commands\\deleteuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\migrations\\20240405190722_ghsh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:migrations\\20240405190722_ghsh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,36 +114,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetUserDetailsByUserIDQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Queries\\GetUserDetailsByUserIDQuery.cs",
-              "RelativeDocumentMoniker": "Features\\Queries\\GetUserDetailsByUserIDQuery.cs",
-              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Queries\\GetUserDetailsByUserIDQuery.cs",
-              "RelativeToolTip": "Features\\Queries\\GetUserDetailsByUserIDQuery.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Title": "GetWithParameterQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Queries\\GetWithParameterQuery.cs",
+              "RelativeDocumentMoniker": "Features\\Queries\\GetWithParameterQuery.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Queries\\GetWithParameterQuery.cs",
+              "RelativeToolTip": "Features\\Queries\\GetWithParameterQuery.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAYwCoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:20:17.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SaveUserDetailsValidation.cs",
-              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Validations\\SaveUserDetailsValidation.cs",
-              "RelativeDocumentMoniker": "Validations\\SaveUserDetailsValidation.cs",
-              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Validations\\SaveUserDetailsValidation.cs",
-              "RelativeToolTip": "Validations\\SaveUserDetailsValidation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:16:18.744Z",
+              "WhenOpened": "2024-04-05T21:19:04.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UpdateUserDetailsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\UpdateUserDetailsCommand.cs",
+              "RelativeDocumentMoniker": "Features\\Commands\\UpdateUserDetailsCommand.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\UpdateUserDetailsCommand.cs",
+              "RelativeToolTip": "Features\\Commands\\UpdateUserDetailsCommand.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAnwCwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:18:44.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaveUserDetailsValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Validations\\SaveUserDetailsValidation.cs",
+              "RelativeDocumentMoniker": "Validations\\SaveUserDetailsValidation.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Validations\\SaveUserDetailsValidation.cs",
+              "RelativeToolTip": "Validations\\SaveUserDetailsValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T19:16:18.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SaveUserDetailsCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\SaveUserDetailsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\SaveUserDetailsCommand.cs",
               "RelativeDocumentMoniker": "Features\\Commands\\SaveUserDetailsCommand.cs",
-              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\SaveUserDetailsCommand.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\SaveUserDetailsCommand.cs",
               "RelativeToolTip": "Features\\Commands\\SaveUserDetailsCommand.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAYwCkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,52 +164,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "20240405190722_ghsh.cs",
-              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190722_ghsh.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190722_ghsh.cs",
               "RelativeDocumentMoniker": "Migrations\\20240405190722_ghsh.cs",
-              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190722_ghsh.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190722_ghsh.cs",
               "RelativeToolTip": "Migrations\\20240405190722_ghsh.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:07:22.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240405190624_ghsh.cs",
-              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190624_ghsh.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240405190624_ghsh.cs",
-              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190624_ghsh.cs",
-              "RelativeToolTip": "Migrations\\20240405190624_ghsh.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T19:06:24.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T19:07:22.589Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAowAoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-05T19:01:37.626Z",
-              "EditorCaption": ""
+              "Title": "20240405190624_ghsh.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190624_ghsh.cs",
+              "RelativeDocumentMoniker": "..\\..\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190624_ghsh.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190624_ghsh.cs",
+              "RelativeToolTip": "..\\..\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240405190624_ghsh.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T19:06:24.72Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T19:01:37.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DeleteUserDetails.cs",
-              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\DeleteUserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\DeleteUserDetails.cs",
               "RelativeDocumentMoniker": "Features\\Commands\\DeleteUserDetails.cs",
-              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\DeleteUserDetails.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\DeleteUserDetails.cs",
               "RelativeToolTip": "Features\\Commands\\DeleteUserDetails.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAPAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAMwB8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T18:58:49.302Z",
               "EditorCaption": ""
@@ -203,11 +215,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserControll.cs",
-              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\UserControll.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\UserControll.cs",
               "RelativeDocumentMoniker": "Controllers\\UserControll.cs",
-              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\UserControll.cs",
-              "RelativeToolTip": "Controllers\\UserControll.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAAA2AAAA",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\UserControll.cs*",
+              "RelativeToolTip": "Controllers\\UserControll.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAIA0wBQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T18:55:06.522Z",
               "EditorCaption": ""

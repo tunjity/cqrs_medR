@@ -4,7 +4,7 @@ using UserCRUDWebAPI_CQRS_MediatR.Features.Queries;
 
 namespace UserCRUDWebAPI_CQRS_MediatR.Validations
 {
-    public class UpdateUserDetailsValidation : AbstractValidator<UpdateUserDetailsCommand>
+    public class UpdateUserDetailsValidation : AbstractValidator<UpdateDetailsCommand>
     {
         public UpdateUserDetailsValidation() {
             RuleFor(x => x.UserID).NotEmpty().WithMessage("The User ID field is required!")

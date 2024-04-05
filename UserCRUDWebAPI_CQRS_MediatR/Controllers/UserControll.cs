@@ -21,13 +21,15 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Controllers
         public async Task<List<UserDto>> GetUserLists() => await this.mediator.Send(new GetUserListsQuery());
 
         [HttpGet("GetUserDetailsByUserID")]
-        public async Task<UserDto> GetUserDetailsByUserID(Guid userID) => await this.mediator.Send(new GetUserDetailsByUserIDQuery(userID));
+        public async Task<ResponseDto> GetUserDetailsByUserID(Guid userID) => await this.mediator.Send(new GetUserDetailsByUserIDQuery(userID));
+        [HttpGet("GetUserDetailsByPassword")]
+        public async Task<ResponseDto> GetUserDetailsByPassword(string password) => await this.mediator.Send(new GetUserDetailsByUserPasswordQuery(password));
 
         [HttpPost("SaveUserDetails")]
         public async Task<ResponseDto> SaveUserDetails(SaveUserDetailsCommand userDto) => await this.mediator.Send(userDto);
 
         [HttpPut("UpdateUserDetails")]
-        public async Task<ResponseDto> UpdateUserDetails(UpdateUserDetailsCommand userDto) => await this.mediator.Send(userDto);
+        public async Task<ResponseDto> UpdateUserDetails(UpdateDetailsCommand userDto) => await this.mediator.Send(userDto);
 
         [HttpGet("DeleteUserDetails")]
         public async Task<ResponseDto> DeleteUserDetails(Guid userID) => await this.mediator.Send(new DeleteUserDetailsCommand(userID));

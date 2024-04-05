@@ -27,6 +27,32 @@
   },
   {
     "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.UserController",
+    "Method": "GetUserDetailsByPassword",
+    "RelativePath": "User/GetUserDetailsByPassword",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.UserController",
     "Method": "GetUserDetailsByUserID",
     "RelativePath": "User/GetUserDetailsByUserID",
     "HttpMethod": "GET",
@@ -41,7 +67,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.UserDto",
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.ResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

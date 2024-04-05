@@ -6,15 +6,15 @@ using UserCRUDWebAPI_CQRS_MediatR.Models;
 
 namespace UserCRUDWebAPI_CQRS_MediatR.Features.Commands
 {
-    public record UpdateUserDetailsCommand(Guid UserID, string FirstName, string LastName, string Department, string Email, string Password) : IRequest<ResponseDto>;
+    public record UpdateDetailsCommand(Guid UserID, string FirstName, string LastName, string Department, string Email, string Password) : IRequest<ResponseDto>;
 
-    public class UpdateUserDetailsCommandHandler : IRequestHandler<UpdateUserDetailsCommand, ResponseDto>
+    public class UpdateUserDetailsCommandHandler : IRequestHandler<UpdateDetailsCommand, ResponseDto>
     {
         private readonly demoDBContext demoDBContext;
         private readonly IMediator mediator;
         public UpdateUserDetailsCommandHandler(demoDBContext _demoDBContext, IMediator _mediator) { demoDBContext = _demoDBContext; mediator = _mediator; }
 
-        public async Task<ResponseDto> Handle(UpdateUserDetailsCommand request, CancellationToken cancellationToken)
+        public async Task<ResponseDto> Handle(UpdateDetailsCommand request, CancellationToken cancellationToken)
         {
             ResponseDto response;
             try
@@ -31,24 +31,24 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Commands
                         userDetails.Password = request.Password;
 
                         await demoDBContext.SaveChangesAsync();
-                        response = new ResponseDto(userDetails.UserID, "Updated Successfully!");
+                        response = new ResponseDto(userDetails.UserID, "Updated Successfully!",true);
                         mediator.Publish(new ResponseEvent(response));
                         return response;
                     }
                     else
                     {
-                        response = new ResponseDto(request.UserID, "User ID not found in the Database!");
+                        response = new ResponseDto(request.UserID, "User ID not found in the Database!",false);
                         mediator.Publish(new ErrorEvent(response));
                         return response;
                     }
                 }
-                response = new ResponseDto(request.UserID, "User ID not found in the Database!");
+                response = new ResponseDto(request.UserID, "User ID not found in the Database!",false);
                 mediator.Publish(new ErrorEvent(response));
                 return response;
             }
             catch
             {
-                response = new ResponseDto(default, "Failed!");
+                response = new ResponseDto(default, "Failed!",false);
                 mediator.Publish(new ErrorEvent(response));
                 return response;
             }

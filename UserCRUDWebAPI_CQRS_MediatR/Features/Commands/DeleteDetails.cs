@@ -29,25 +29,25 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Commands
                     {
                         demoDBContext.Users.Remove(userDetails);
                         await demoDBContext.SaveChangesAsync();
-                        response = new ResponseDto(request.userID, "Deleted Successfully!");
+                        response = new ResponseDto(request.userID, "Deleted Successfully!",true);
                         mediator.Publish(new ResponseEvent(response));
                         return response;
                     }
                     else
                     {
-                        response = new ResponseDto(request.userID, "User ID not found in the Database!");
+                        response = new ResponseDto(request.userID, "User ID not found in the Database!",false);
                         mediator.Publish(new ErrorEvent(response));
                         return response;
                     }
                 }
 
-                response = new ResponseDto(default, "Request is not found!");
+                response = new ResponseDto(default, "Request is not found!",false);
                 mediator.Publish(new ResponseEvent(response));
                 return response;
             }
             catch
             {
-                response = new ResponseDto(default, "Failed!");
+                response = new ResponseDto(default, "Failed!",false);
                 mediator.Publish(new ErrorEvent(response));
                 return response;
             }

@@ -34,18 +34,18 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Commands
                         Password = request.Password,
                     });
                     await demoDBContext.SaveChangesAsync();
-                    response = new ResponseDto(userID, "Saved Successfully!");
+                    response = new ResponseDto(userID, "Saved Successfully!",true);
                     mediator.Publish(new ResponseEvent(response));
                     return response;
                 }
 
-                response = new ResponseDto(default, "Request is not found!");
+                response = new ResponseDto(default, "Request is not found!",false);
                 mediator.Publish(new ResponseEvent(response));
                 return response;
             }
             catch
             {
-                response = new ResponseDto(default, "Failed!");
+                response = new ResponseDto(default, "Failed!",false);
                 mediator.Publish(new ErrorEvent(response));
                 return response;
             }
