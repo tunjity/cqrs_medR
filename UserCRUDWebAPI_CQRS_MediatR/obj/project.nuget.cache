@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AEReHEzVqudNiSFxn7yvn6j2GOkMyCeA5pKMQFgl/WK2mzi2Dubr0vGepUrKmcFC+liv4aWfLkp58U+LaWMwgA==",
+  "dgSpecHash": "QUBpRdaEcQGYYh/YpIAAwsfONfaqrg1ffS0LvtkP7/RtQ3TKSsmoBDyAmHjPol2ox0Li4MkBSgAmmeYwt1CQag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\UserCRUDWebAPI_CQRS_MediatR.csproj",
+  "projectFilePath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\UserCRUDWebAPI_CQRS_MediatR.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Temitayo Oyetunji\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Temitayo Oyetunji\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

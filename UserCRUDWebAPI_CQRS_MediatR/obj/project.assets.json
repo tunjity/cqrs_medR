@@ -3520,11 +3520,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\UserCRUDWebAPI_CQRS_MediatR.csproj",
+      "projectUniqueName": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\UserCRUDWebAPI_CQRS_MediatR.csproj",
       "projectName": "UserCRUDWebAPI_CQRS_MediatR",
-      "projectPath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\UserCRUDWebAPI_CQRS_MediatR.csproj",
+      "projectPath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\UserCRUDWebAPI_CQRS_MediatR.csproj",
       "packagesPath": "C:\\Users\\Temitayo Oyetunji\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\New folder\\UserCRUDWebAPI_CQRS_MediatR\\obj\\",
+      "outputPath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
