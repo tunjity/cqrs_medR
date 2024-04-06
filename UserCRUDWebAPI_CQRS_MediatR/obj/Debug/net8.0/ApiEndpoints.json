@@ -1,0 +1,204 @@
+[
+  {
+    "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.SchoolController",
+    "Method": "GetSchoolByLgaID",
+    "RelativePath": "School/GetSchoolByLgaID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lgaIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.SchoolController",
+    "Method": "Save",
+    "RelativePath": "School/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Features.Commands.SaveSchoolCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.UserController",
+    "Method": "DeleteUserDetails",
+    "RelativePath": "User/DeleteUserDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.UserController",
+    "Method": "GetUserDetailsByPassword",
+    "RelativePath": "User/GetUserDetailsByPassword",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.UserController",
+    "Method": "GetUserDetailsByUserID",
+    "RelativePath": "User/GetUserDetailsByUserID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.UserController",
+    "Method": "GetUserLists",
+    "RelativePath": "User/GetUserLists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[UserCRUDWebAPI_CQRS_MediatR.Models.UserDto, UserCRUDWebAPI_CQRS_MediatR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.UserController",
+    "Method": "SaveUserDetails",
+    "RelativePath": "User/SaveUserDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Features.Commands.SaveUserDetailsCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UserCRUDWebAPI_CQRS_MediatR.Controllers.UserController",
+    "Method": "UpdateUserDetails",
+    "RelativePath": "User/UpdateUserDetails",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Features.Commands.UpdateDetailsCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserCRUDWebAPI_CQRS_MediatR.Models.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

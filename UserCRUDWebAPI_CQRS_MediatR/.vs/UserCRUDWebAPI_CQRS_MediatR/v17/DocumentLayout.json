@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\controllers\\schoolcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:controllers\\schoolcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\controllers\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:controllers\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\queries\\getwithparameterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\queries\\getwithparameterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\commands\\deletedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\commands\\deletedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\commands\\updatedetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\commands\\updatedetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\commands\\savedetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\commands\\savedetailscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240406190050_hjkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240406190050_hjkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,6 +107,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetWithParameterQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Queries\\GetWithParameterQuery.cs",
+              "RelativeDocumentMoniker": "Features\\Queries\\GetWithParameterQuery.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Queries\\GetWithParameterQuery.cs",
+              "RelativeToolTip": "Features\\Queries\\GetWithParameterQuery.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAnwGwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T19:17:32.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControll.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\UserControll.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserControll.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\UserControll.cs",
+              "RelativeToolTip": "Controllers\\UserControll.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAACEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T19:17:08.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SchoolControll.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\SchoolControll.cs",
+              "RelativeDocumentMoniker": "Controllers\\SchoolControll.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\SchoolControll.cs",
+              "RelativeToolTip": "Controllers\\SchoolControll.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T19:14:44.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240406190050_hjkh.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240406190050_hjkh.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240406190050_hjkh.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Migrations\\20240406190050_hjkh.cs",
+              "RelativeToolTip": "Migrations\\20240406190050_hjkh.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwB4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T19:00:51.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateDetailsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\UpdateDetailsCommand.cs",
+              "RelativeDocumentMoniker": "Features\\Commands\\UpdateDetailsCommand.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\UpdateDetailsCommand.cs",
+              "RelativeToolTip": "Features\\Commands\\UpdateDetailsCommand.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T19:00:07.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\DeleteDetails.cs",
+              "RelativeDocumentMoniker": "Features\\Commands\\DeleteDetails.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\DeleteDetails.cs",
+              "RelativeToolTip": "Features\\Commands\\DeleteDetails.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAtwBoAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T18:59:59.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaveDetailsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\SaveDetailsCommand.cs",
+              "RelativeDocumentMoniker": "Features\\Commands\\SaveDetailsCommand.cs",
+              "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Commands\\SaveDetailsCommand.cs",
+              "RelativeToolTip": "Features\\Commands\\SaveDetailsCommand.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAiwBAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T18:59:48.409Z",
+              "EditorCaption": ""
             }
           ]
         }

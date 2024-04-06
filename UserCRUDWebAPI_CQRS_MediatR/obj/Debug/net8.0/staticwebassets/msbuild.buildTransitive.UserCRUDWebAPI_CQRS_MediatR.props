@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\UserCRUDWebAPI_CQRS_MediatR.props" />
+</Project>

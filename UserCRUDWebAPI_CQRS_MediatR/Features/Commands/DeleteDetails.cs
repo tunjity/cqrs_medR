@@ -24,7 +24,7 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Commands
             {
                 if (request is not null)
                 {
-                    var userDetails = await demoDBContext.Users.FirstOrDefaultAsync(x => x.UserID == request.userID);
+                    var userDetails = await demoDBContext.Users.FirstOrDefaultAsync(x => x.ID == request.userID);
                     if (userDetails != null)
                     {
                         demoDBContext.Users.Remove(userDetails);

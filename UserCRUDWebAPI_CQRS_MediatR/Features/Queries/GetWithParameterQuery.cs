@@ -115,23 +115,24 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Queries
         public async Task<ResponseDto> Handle(GetSchoolByLgIds request, CancellationToken cancellationToken)
         {
             ResponseDto response = null;
-            var _res = await demoDBContext.Schools.Where(o=>request.lgaIds.Contains(o.LgaId)).ToArrayAsync();
+            var _res = await demoDBContext.Schools.Where(o=>request.lgaIds.Contains(o.LgaId))
+              .Select(u => new SchoolDto
+                {
+                    ID = u.ID,
+                    LgaId = u.LgaId,
+                    Address = u.Address,
+                    Name = u.Name,
+                    DateCreated = u.DateCreated,
+                    CreatedBy = u.CreatedBy
+                })
+                .ToListAsync();
             if (_res.Any())
             {
-                var res= new UserDto
-                {
-                    UserID = _userDetails.ID,
-                    FirstName = _userDetails.FirstName,
-                    LastName = _userDetails.LastName,
-                    Department = _userDetails.Department,
-                    Email = _userDetails.Email,
-                    Password = _userDetails.Password
-                };
-                response = new ResponseDto(res,"User Found",true);
+                response = new ResponseDto(_res,"User Found",true);
             }
             else
             {
-                response = new ResponseDto(request.password, "User details not found!", false);
+                response = new ResponseDto(request.lgaIds, "User details not found!", false);
                 await mediator.Publish(new ErrorEvent(response));
             }
 

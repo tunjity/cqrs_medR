@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserCRUDWebAPI_CQRS_MediatR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94d88cf45a7fc8f0853e28b692d5e2ce4ecf7f60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2df30ec037bfdca0e2ed6c8b12b6be730e91890f")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserCRUDWebAPI_CQRS_MediatR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserCRUDWebAPI_CQRS_MediatR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

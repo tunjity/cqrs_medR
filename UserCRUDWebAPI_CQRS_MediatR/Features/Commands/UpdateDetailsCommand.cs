@@ -21,7 +21,7 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Commands
             {
                 if (request is not null)
                 {
-                    var userDetails = await demoDBContext.Users.FirstOrDefaultAsync(x => x.UserID == request.UserID);
+                    var userDetails = await demoDBContext.Users.FirstOrDefaultAsync(x => x.ID == request.UserID);
                     if (userDetails != null)
                     {
                         userDetails.FirstName = request.FirstName;
@@ -31,7 +31,7 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Commands
                         userDetails.Password = request.Password;
 
                         await demoDBContext.SaveChangesAsync();
-                        response = new ResponseDto(userDetails.UserID, "Updated Successfully!",true);
+                        response = new ResponseDto(userDetails.ID, "Updated Successfully!",true);
                         mediator.Publish(new ResponseEvent(response));
                         return response;
                     }
