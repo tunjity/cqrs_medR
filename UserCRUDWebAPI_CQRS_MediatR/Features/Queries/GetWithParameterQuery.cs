@@ -106,37 +106,37 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Queries
             return response;
         }
     }
-    // public class GetSchoolByLGAQueryHandler : IRequestHandler<GetSchoolByLgIds, ResponseDto>
-    // {
-    //     private readonly demoDBContext demoDBContext;
-    //     private readonly IMediator mediator;
+    public class GetSchoolByLGAQueryHandler : IRequestHandler<GetSchoolByLgIds, ResponseDto>
+    {
+        private readonly demoDBContext demoDBContext;
+        private readonly IMediator mediator;
 
-    //     public GetSchoolByLGAQueryHandler(demoDBContext _demoDBContext, IMediator _mediator) { demoDBContext = _demoDBContext; mediator = _mediator; }
-    //     public async Task<ResponseDto> Handle(GetSchoolByLgIds request, CancellationToken cancellationToken)
-    //     {
-    //         ResponseDto response = null;
-    //         var _userDetails = await demoDBContext.Users.FirstOrDefaultAsync(o=>o.Password ==request.password);
-    //         if (_userDetails is not null)
-    //         {
-    //             var res= new UserDto
-    //             {
-    //                 UserID = _userDetails.ID,
-    //                 FirstName = _userDetails.FirstName,
-    //                 LastName = _userDetails.LastName,
-    //                 Department = _userDetails.Department,
-    //                 Email = _userDetails.Email,
-    //                 Password = _userDetails.Password
-    //             };
-    //             response = new ResponseDto(res,"User Found",true);
-    //         }
-    //         else
-    //         {
-    //             response = new ResponseDto(request.password, "User details not found!", false);
-    //             await mediator.Publish(new ErrorEvent(response));
-    //         }
+        public GetSchoolByLGAQueryHandler(demoDBContext _demoDBContext, IMediator _mediator) { demoDBContext = _demoDBContext; mediator = _mediator; }
+        public async Task<ResponseDto> Handle(GetSchoolByLgIds request, CancellationToken cancellationToken)
+        {
+            ResponseDto response = null;
+            var _res = await demoDBContext.Schools.Where(o=>request.lgaIds.Contains(o.LgaId)).ToArrayAsync();
+            if (_res.Any())
+            {
+                var res= new UserDto
+                {
+                    UserID = _userDetails.ID,
+                    FirstName = _userDetails.FirstName,
+                    LastName = _userDetails.LastName,
+                    Department = _userDetails.Department,
+                    Email = _userDetails.Email,
+                    Password = _userDetails.Password
+                };
+                response = new ResponseDto(res,"User Found",true);
+            }
+            else
+            {
+                response = new ResponseDto(request.password, "User details not found!", false);
+                await mediator.Publish(new ErrorEvent(response));
+            }
 
-    //         return response;
-    //     }
-    // }
+            return response;
+        }
+    }
 
 }
