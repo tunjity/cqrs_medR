@@ -2,10 +2,8 @@
 
 namespace UserCRUDWebAPI_CQRS_MediatR.Entity
 {
-    public class Users
+    public class Users:BaseModel
     {
-        [Key]
-        public Guid UserID { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? Department { get; set; }

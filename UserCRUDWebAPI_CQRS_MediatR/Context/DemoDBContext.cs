@@ -8,5 +8,6 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Context
         public demoDBContext(DbContextOptions<demoDBContext> options) : base(options) { }
 
         public DbSet<Users> Users { get; set; }
+        public DbSet<School> Schools { get; set; }
     }
 }

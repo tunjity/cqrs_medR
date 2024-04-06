@@ -19,7 +19,7 @@ namespace UserCRUDWebAPI_CQRS_MediatR.Features.Queries
                 .AsNoTracking()
                 .Select(u => new UserDto
                 {
-                    UserID = u.UserID,
+                    UserID = u.ID,
                     FirstName = u.FirstName,
                     LastName = u.LastName,
                     Department = u.Department,
