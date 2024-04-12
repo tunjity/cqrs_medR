@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\queries\\getwithparameterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\queries\\getwithparameterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\controllers\\schoolcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:controllers\\schoolcontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\controllers\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:controllers\\usercontroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\queries\\getwithparameterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|solutionrelative:features\\queries\\getwithparameterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CA82A34-DD24-4B79-8C32-9A3969A1CC6F}|UserCRUDWebAPI_CQRS_MediatR.csproj|c:\\users\\temitayo oyetunji\\desktop\\fromxlaptop\\learning\\cqrs_medr\\usercrudwebapi_cqrs_mediatr\\features\\commands\\deletedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,20 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GetWithParameterQuery.cs",
               "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Queries\\GetWithParameterQuery.cs",
               "RelativeDocumentMoniker": "Features\\Queries\\GetWithParameterQuery.cs",
               "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Features\\Queries\\GetWithParameterQuery.cs",
               "RelativeToolTip": "Features\\Queries\\GetWithParameterQuery.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAnwGwAAAA+AAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAUwIQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T19:17:32.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserControll.cs",
               "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\UserControll.cs",
               "RelativeDocumentMoniker": "Controllers\\UserControll.cs",
@@ -136,13 +136,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SchoolControll.cs",
               "DocumentMoniker": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\SchoolControll.cs",
               "RelativeDocumentMoniker": "Controllers\\SchoolControll.cs",
               "ToolTip": "C:\\Users\\Temitayo Oyetunji\\Desktop\\FromXLaptop\\Learning\\cqrs_medR\\UserCRUDWebAPI_CQRS_MediatR\\Controllers\\SchoolControll.cs",
               "RelativeToolTip": "Controllers\\SchoolControll.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBUAAABCAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA5wBUAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T19:14:44.45Z",
               "EditorCaption": ""
